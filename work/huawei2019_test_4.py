@@ -1,0 +1,15 @@
+import sys
+num_nodes = int(sys.stdin.readline().strip())
+line = sys.stdin.readline().strip()
+nodes = list(map(int, line.split()))
+line = sys.stdin.readline().strip()
+hasChild = list(map(int, line.split()))
+line = sys.stdin.readline().strip()
+pouds = list(map(int, line.split()))
+num_values = int(sys.stdin.readline().strip())
+line = sys.stdin.readline().strip()
+values = list(map(int, line.split()))
+num_keys = int(sys.stdin.readline().strip())
+line = sys.stdin.readline().strip()
+keys = list(map(int, line.split()))
+
